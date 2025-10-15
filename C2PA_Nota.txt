@@ -1,0 +1,15 @@
+C2PA / Content Credentials — Nota práctica (texto)
+- Objetivo: incrustar credenciales de contenido que indiquen política “do-not-train” y procedencia.
+- Cómo: usa herramientas de Content Credentials (C2PA) para firmar medios (imágenes/video/audio). Para texto, incluye:
+  (a) banner visible “No-Train, Reparto Obligatorio — Data Copyleft v1.0”,
+  (b) hash/ID de versión y fecha,
+  (c) enlace a la Carta y a la Licencia.
+- Campos sugeridos (texto):
+  Título: Soberanía Digital v1.0
+  Política_AI: do-not-train
+  Licencia: Data Copyleft v1.0 (No‑Train, Reparto Obligatorio)
+  Procedencia: [colecciones/fuentes si aplica] / “origen propio”
+  Autor: [tu nombre/colectivo]
+  ID_de_publicación: [hash o UUID]
+  Fecha: [AAAA‑MM‑DD]
+- Nota: C2PA está más maduro para medios binarios. Para texto, combina credenciales visibles, firmas/hashes y publicación en repos con historial.

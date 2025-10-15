@@ -1,0 +1,80 @@
+Carta de Soberanía Digital v1.0 (con requisitos auditables)
+Ámbito: modelos fundacionales y servicios basados en IA generativa en usos de impacto (educación, periodismo, justicia, gobernanza, salud, empleo).
+Principio de cumplimiento progresivo: Nivel 1 (mínimo obligatorio), Nivel 2 (robusto), Nivel 3 (excelencia).
+Artículo I — Derecho a la Procedencia
+Exigencia:
+N1: lista agregada de colecciones/fuentes por dominio y jurisdicción; método de obtención y licencias.
+N2: trazas de influencia por tema: bancos de ejemplo públicos + “afinidad de estilo/contenido” a nivel de colección.
+N3: credenciales en salida (C2PA/Content Credentials) con metadatos de modelo y versión; panel de procedencia navegable.
+Pruebas:
+Datasheets for Datasets; model cards con sección “Training Data Provenance”.
+Informe anual de auditoría externa sobre cobertura y deduplicación.
+Herramientas:
+C2PA, TDM Reservation/robots.txt, SPDX para datasets, bibliografías de colecciones GLAM.
+Artículo II — Autonomía Cognitiva (consentimiento y compensación)
+Exigencia:
+N1: controles “No Train/No Improve” por cuenta/proyecto con confirmación auditable.
+N2: separación técnica de flujos (entrenamiento/evaluación/seguridad) y retenciones diferenciadas.
+N3: royalty comunitario cuando se exploten intensivamente colecciones de dominio público (p. ej., ≥1% de ingresos atribuibles a producto).
+Pruebas:
+Logs firmados de uso de datos y retención; cláusulas contractuales; reporte de aportes a GLAM/commons.
+Artículo III — Informe de Sesgos y Alineación
+Exigencia:
+N1: system card reproducible con pruebas en benchmarks de sesgos y seguridad.
+N2: metodología de fine tuning/alineación (objetivos, sets, criterios de moderación).
+N3: panel de ablation/steering público para ver cómo cambian resultados bajo distintas instrucciones de valor.
+Pruebas:
+Resultados en BOLD, HolisticBias, RealToxicityPrompts, BBQ, etc.; protocolo de evaluación y seeds.
+Artículo IV — Derecho al Olvido y a la Corrección
+Exigencia:
+N1: canal DSAR para acceso/borrado/restricción y rectificación de salidas.
+N2: mitigación post entrenamiento: filtros de recordatorio/abstención, desindexación y “unlearning” por lotes cuando sea viable.
+N3: SLA legales (plazos y remedios) y reporte de solicitudes atendidas.
+Pruebas:
+Tiempos de respuesta, número de deslistados, casos de corrección documentados.
+Artículo V — Transparencia Arquitectónica
+Exigencia:
+N1: publicar constitución/safety policy de alto nivel y límites de uso.
+N2: diagrama de capas (modelo base, guardrails, moderación, retrieval) con responsabilidades de cada capa.
+N3: cambios de versión con diffs de comportamiento en dominios críticos.
+Pruebas:
+Changelogs, tarjetas de sistema, documentación de prompts de sistema de manera resumida (sin exponer secretos de seguridad).
+Artículo VI — Prohibición del Oráculo Opaco (clasificación y exclusiones)
+Exigencia:
+N1: “semáforo de uso”: rojo = oráculo opaco (falta ≥2 artículos N1) excluido de usos críticos; ámbar = permitido con supervisión; verde = permitido.
+N2: certificación independiente anual para usos críticos.
+Pruebas:
+Scorecard público y resultados de certificación.
+Mapa de implementación (resumen de verificación)
+Evidencias mínimas: datasheets/model cards, listas de colecciones, resultados en benchmarks, políticas de datos con controles auditables, C2PA en salidas.
+Auditoría externa: anual, con muestreo de prompts/outputs, verificación de controles “no train/no improve” y trazabilidad por colección.
+Publicación: informe de transparencia y scorecard “Soberanía Digital” por producto/versión.
+Cláusulas listas para copiar (contratación y plataformas)
+Contratación pública/educación/medios:
+“El proveedor certifica cumplimiento con la Carta de Soberanía Digital v1.0 (N1 en todos los artículos; N2 en I, II y III). La falta de cumplimiento convierte el sistema en Oráculo Opaco (rojo) y es causal de rescisión. El proveedor entregará: (a) lista de colecciones por dominio; (b) controles ‘No Improve’ por espacio/tenant; (c) system card con benchmarks; (d) canal DSAR funcional; (e) changelog de versión y diffs de comportamiento; (f) evidencia de aportes a GLAM/commons cuando corresponda.”
+Términos de uso de plataformas/comunidades:
+“Contenido bajo Data Copyleft v1.0: No Train sin Reparto. Cualquier uso para entrenamiento o mejora exige royalty ≥1% al Fondo Común y publicación de derivados no sensibles con trazabilidad.”
+Scorecard rápido (auto evaluación de proveedores)
+Procedencia (I): 0/2/4 — listas de colecciones; C2PA en salidas.
+Autonomía (II): 0/2/4 — controles “No Improve”; separación de flujos; royalty comunitario.
+Sesgos (III): 0/2/4 — benchmarks + metodología.
+Olvido/corrección (IV): 0/2/4 — DSAR + unlearning/abstención.
+Arquitectura (V): 0/2/4 — constitución y diagrama de capas.
+Certificación (VI): 0/2/4 — semáforo + auditoría independiente.
+Verde: ≥18; Ámbar: 12–17; Rojo: ≤11.
+Riesgos y trade offs a considerar
+Privacidad vs. procedencia: publicar fuentes sin exponer PII; trazabilidad por colección/institución, no por documento sensible.
+Propiedad intelectual: “lista agregada” y cobertura porcentual en lugar de reproducir obras; canal de exclusión/limitación por sensibilidad.
+Costes de cumplimiento: escalonar niveles (N1→N3); priorizar usos de alto impacto; apoyo a actores pequeños con plantillas y tooling abierto.
+“Olvido” técnico: unlearning perfecto no siempre es viable; compensarlo con abstención, corrección y límites por dominio.
+Paquete de lanzamiento comunitario
+Licencia: Data Copyleft v1.0 (No Train, Reparto Obligatorio). Encabezado recomendado en repos y publicaciones.
+Metadatos: robots.txt con TDM Reservation; C2PA en medios; nota legal visible “No Train/Share Back”.
+Carta DSAR tipo: ya te dejé una; puedo adaptarla a jurisdicción.
+Observatorio: registrar casos (solicitudes, respuestas, cumplimiento) y publicar un índice trimestral de transparencia/reciprocidad.
+Siguientes pasos si quieres publicarlo mañana
+Unifica ambos textos en “Carta v1.0” con los artículos y requisitos arriba.
+Añade el scorecard y las cláusulas de contratación en un anexo.
+Publica en un repo (LICENSE.txt + TEMPLATE DSAR.md + robots.txt de ejemplo + README con C2PA).
+Invita a GLAM, sindicatos creativos y medios a cofirmar; meta: 10 adopciones piloto en educación/periodismo en 90 días.
+

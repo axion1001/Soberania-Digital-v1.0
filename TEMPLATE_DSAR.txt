@@ -1,0 +1,27 @@
+Asunto: Solicitud de acceso/borrado/restricción – conversación/uso en fecha [AAAA‑MM‑DD], ID [si aplica]
+
+A la atención de [Proveedor/Plataforma]:
+Yo, [Nombre completo o seudónimo verificable], con contacto [correo/teléfono], y jurisdicción [país], solicito en virtud de [GDPR/ley aplicable/ToS]:
+
+1) Acceso
+- Copia de los datos personales asociados a mi cuenta/sesión del [fecha].
+- Finalidades de tratamiento, base legal, categorías de destinatarios y plazos de retención.
+- Indicación de si la conversación fue usada para evaluación, seguridad, etiquetado humano o mejora de producto.
+
+2) Borrado/Restricción
+- Borrado de los datos que no estén amparados por una base legal suficiente o que hayan excedido el plazo de retención.
+- Restricción de uso para “mejora/entrenamiento/evaluación”, según sus controles disponibles, y confirmación por escrito.
+
+3) Rectificación (si aplica)
+- Corrección de [describa la falsedad/difamación] generada por el sistema, y medidas para evitar su repetición.
+
+Entrega
+- Formato: [portal seguro/ZIP cifrado/otro].
+- Plazo: [30 días bajo GDPR, salvo extensión justificada].
+
+Identidad
+- Adjunto prueba de identidad [según política] o verificación equivalente de cuenta.
+
+Atentamente,
+[Firma]
+[Fecha]

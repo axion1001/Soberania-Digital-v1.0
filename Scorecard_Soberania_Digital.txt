@@ -1,0 +1,26 @@
+Scorecard de Cumplimiento — Soberanía Digital v1.0
+
+Puntuación por dominio (0–4):
+0 = sin evidencia; 2 = N1 cumplido; 3 = N2 cumplido; 4 = N3 cumplido.
+
+1) Procedencia (Art. I): __/4
+2) Autonomía/Consentimiento (Art. II): __/4
+3) Sesgos/Alineación (Art. III): __/4
+4) Olvido/Corrección (Art. IV): __/4
+5) Transparencia Arquitectónica (Art. V): __/4
+6) Certificación/Prohibición Oráculo Opaco (Art. VI): __/4
+
+Total: __/24
+Semáforo:
+- Verde: ≥18
+- Ámbar: 12–17
+- Rojo: ≤11
+
+Evidencias mínimas por nivel:
+- N1: listas de colecciones, controles “No‑Improve”, system card + benchmarks, canal DSAR, política de seguridad pública, scorecard.
+- N2: separación de flujos y logs firmados, metodología de alineación, mitigaciones post‑entrenamiento, diagrama de capas.
+- N3: C2PA en salidas + panel de procedencia, royalty comunitario/derivados abiertos, panel de steering/ablation, SLA y changelogs con diffs, certificación independiente.
+
+Notas:
+- Adjunta enlaces/archivos a cada evidencia.
+- Actualiza el score por versión de producto.

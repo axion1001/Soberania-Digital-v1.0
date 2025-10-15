@@ -1,0 +1,22 @@
+Cláusula de Soberanía Digital (para RFP/contrato)
+
+El proveedor certifica cumplimiento con la Carta de Soberanía Digital v1.0:
+- Mínimos obligatorios (N1) en todos los artículos I–VI.
+- Niveles N2 en I, II y III para usos críticos (educación, periodismo, justicia, gobernanza, salud, empleo).
+
+Entregables obligatorios:
+(a) Lista agregada de colecciones/fuentes por dominio y jurisdicción, con licencias y método de obtención.
+(b) Controles “No‑Train/No‑Improve” por tenant/espacio, con confirmación auditable.
+(c) System card con benchmarks de sesgos/seguridad y metodología de alineación.
+(d) Canal DSAR operativo (acceso, borrado, restricción, rectificación), con SLA.
+(e) Diagrama de capas y políticas de seguridad/uso.
+(f) Changelog de versión con diffs en dominios críticos.
+(g) Evidencia de aportes a GLAM/commons (cuando aplique por uso intensivo de dominio público).
+
+Derechos de auditoría:
+- Auditoría externa anual con acceso a evidencias bajo NDA.
+- Verificación de separación de flujos (entrenamiento/evaluación/seguridad) y de logs firmados.
+- Remedios: plan de corrección en 60 días o rescisión sin penalidad si el score cae a “rojo”.
+
+Clasificación:
+- “Oráculo Opaco” (rojo) queda excluido de usos críticos.

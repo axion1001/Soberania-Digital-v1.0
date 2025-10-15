@@ -1,0 +1,3 @@
+# Añade este header a respuestas HTTP (servidor/proxy) como señal “No-AI”
+X-Robots-Tag: noai, noimageai
+# Nota: proveedores pueden no respetarlo; úsalo junto a robots.txt y C2PA.

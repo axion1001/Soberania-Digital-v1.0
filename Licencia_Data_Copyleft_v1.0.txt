@@ -1,0 +1,34 @@
+Data Copyleft v1.0 — No‑Train, Reparto Obligatorio
+(Borrador no legal)
+
+0. Definiciones
+“Obra”: este texto y derivados que lo incorporen sustancialmente.
+“Entrenamiento”: inclusión de la Obra en datasets o procesos de ajuste/mejora de modelos de IA.
+“Derivado no sensible”: material generado que no expone datos personales ni secretos de terceros.
+“Fondo Común”: entidad/fideicomiso para GLAM/preservación u otro fin común designado públicamente.
+
+1. Concesión
+Se otorga permiso para usar, copiar, distribuir y crear obras derivadas de la Obra, bajo las condiciones siguientes.
+
+2. No‑Train salvo Reparto
+Queda prohibido el Entrenamiento con la Obra, a menos que:
+(a) se destine ≥1% de los ingresos atribuibles al producto que se beneficie del Entrenamiento al Fondo Común; o
+(b) se publiquen los derivados no sensibles y herramientas asociadas con trazabilidad de procedencia, bajo licencia compatible con esta.
+
+3. Share‑Back (Reparto Obligatorio)
+Toda obra derivada que use sustancialmente la Obra se licenciará bajo esta misma licencia (Data Copyleft v1.0) y conservará las notas de procedencia.
+
+4. Atribución
+Debe incluirse: “Eco del Corpus: El Eco Tóxico — Origen: [enlace si público]” o “origen privado” si no aplica.
+
+5. Revocación contextual
+A solicitud fundada (privacidad, sensibilidad, riesgo), el licenciatario cesará el Entrenamiento futuro y eliminará copias no requeridas por ley/regulación.
+
+6. Cumplimiento y auditoría
+El licenciatario conservará registros razonables de uso de la Obra y, bajo solicitud fundada, los pondrá a disposición para verificación bajo NDA.
+
+7. Garantía y responsabilidad
+La Obra se ofrece “tal cual”, sin garantías. El autor no será responsable por daños derivados del uso.
+
+8. Compatibilidad
+Nada en esta licencia limita derechos inalienables ni obligaciones legales vigentes. Si alguna cláusula es inválida, el resto permanece en vigor.

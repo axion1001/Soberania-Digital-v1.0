@@ -1,0 +1,4 @@
+<!-- Inserta en <head> como señal adicional (no vinculante) -->
+<meta name="robots" content="noai, noimageai">
+<!-- Añade aviso visible -->
+<meta name="generator" content="Data Copyleft v1.0 — No-Train, Reparto Obligatorio">
